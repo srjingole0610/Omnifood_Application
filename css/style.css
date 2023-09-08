@@ -17,7 +17,7 @@
     
       -Brand color: #e67e22
       -Tints : #fae5d3
-      -Shades: 
+      -Shades: #cf711f ,#b8651b 
       -Accents:
       -Grays: #555, #333
 
@@ -40,7 +40,7 @@ html{
   font-size: 62.5%;
 }
 body{
-    font-family: sans-serif;
+    font-family: 'Rubik', sans-serif;
     line-height: 1;
     font-weight: 400;
     color: #555;
@@ -79,6 +79,7 @@ body{
 .btn:visited{
     display: inline-block;
     font-size: 2rem;
+    font-weight: 600;
     padding: 1.6rem 3.2rem;
     border-radius: 1rem;
     text-decoration: none;
@@ -125,4 +126,36 @@ body{
 
 .hero-img {
   width: 100%;
+}
+
+.delivered-meals {
+  display: flex;
+  margin-top: 6.4rem;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.delivered-img {
+  display: flex;
+}
+
+.delivered-img img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+  margin-right: -1.6rem;
+  border: 3px solid #fdf2e9;
+}
+.delivered-img img:last-child{
+  margin-right: 0;
+}
+
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.delivered-text span {
+  color: #b8651b;
+  font-weight: 700;
 }
