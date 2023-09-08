@@ -29,6 +29,8 @@
 
 ---- 03 Shadows
 
+
+
 ---- 04 Border Radius
       Default: 1rem
 ---- 05 WhiteSpace
@@ -53,9 +55,32 @@ body{
 }
 
 
+
 /* ****************************************** */
         /* GENERAL REUSABLE COMPONENT */
 /* ******************************************* */
+
+/* Reusable Grid */
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+
+}
+
+.grid{
+display: grid;
+gap: 9.6rem;
+}
+
+.grid--2-cols {
+grid-template-columns: repeat(2, 1fr);
+}
+
+.container div {
+  background-color: #333;
+}
+
 
 /* Heading */
 .heading-primary{
@@ -79,10 +104,10 @@ body{
     transition: background-color 0.03s;
 }
 
-.btn:hover,
+/* .btn:hover,
 .btn:active{
     
-}
+} */
 
 .btn--full:link,
 .btn--full:visited{
@@ -191,9 +216,9 @@ body{
   gap:9.6rem ;
   align-items: center;
 }
-.hero-text-box{
+/* .hero-text-box{
 
-}
+} */
 
 .hero-description{
     font-size: 2rem;
@@ -201,9 +226,9 @@ body{
     margin-bottom: 4.8rem;
 }
 
-.hero-img-box{
+/* .hero-img-box{
 
-}
+} */
 
 .hero-img {
   width: 100%;
@@ -239,4 +264,16 @@ body{
 .delivered-text span {
   color: #b8651b;
   font-weight: 700;
+}
+
+
+/* ****************************************** */
+            /* HOW IT WORKS SECTION */
+/* ******************************************* */
+
+.section-how
+{
+    padding: 9.6rem 0;
+    font-size: 50px;
+    background-color: orangered;
 }
