@@ -76,6 +76,7 @@ body{
 display: grid;
 row-gap: 9.6rem;
 column-gap: 6.4rem;
+
 }
 
 .grid--2-cols {
