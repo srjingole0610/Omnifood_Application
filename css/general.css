@@ -82,17 +82,23 @@ column-gap: 6.4rem;
   margin-bottom: 9.6rem;
 }
 
- .grid--4-cols {
-    grid-template-columns: repeat(4, 1fr);  
-    }
-  
-.grid--2-cols {
-grid-template-columns: repeat(2, 1fr);
 
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+  
 }
 
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
+  
+}
+
+.grid--4-cols {
+   grid-template-columns: repeat(4, 1fr);  
+   }
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
   
   }
 
@@ -261,3 +267,5 @@ strong{
 .center-text{
   text-align: center;
 }
+
+
