@@ -13,6 +13,8 @@
     <!-- icon pack -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
 
     <script defer src="js/script.js"></script>
     <title>OmniFood</title>
@@ -29,19 +31,19 @@
         <nav class="main-navigation">
             <ul class="main-nav-list">
                 <li>
-                    <a class = "main-nav-link" href="#">How It Works</a>
+                    <a class = "main-nav-link" href="#how">How It Works</a>
                 </li>
                 <li>
-                    <a class = "main-nav-link" href="#">Meals</a>
+                    <a class = "main-nav-link" href="#meals">Meals</a>
                 </li>
                 <li>
-                    <a class = "main-nav-link" href="#">Testimonials</a>
+                    <a class = "main-nav-link" href="#test">Testimonials</a>
                 </li>
                 <li>
-                    <a class = "main-nav-link" href="#">Pricing</a>
+                    <a class = "main-nav-link" href="#price">Pricing</a>
                 </li>
                 <li>
-                    <a class = "main-nav-link nav-cta" href="#">Try For Free</a>
+                    <a class = "main-nav-link nav-cta" href="#try">Try For Free</a>
                 </li>
             </ul>
         </nav>
@@ -61,8 +63,8 @@
                 <p class="hero-description"> 
                     The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes and nutritional needs.
                 </p>
-                <a href="#" class="btn btn--full margin-right-sm">Subscribe To Eat Well</a>
-                <a href="#" class="btn btn--secondary"> Learn More &darr;</a>
+                <a href="#cta" class="btn btn--full margin-right-sm">Subscribe To Eat Well</a>
+                <a href="#learn" class="btn btn--secondary"> Learn More &darr;</a>
                     <div class="delivered-meals">
                         <div class="delivered-img">
                                 <img src="img/customers/customer-1.jpg" 
@@ -104,7 +106,7 @@
             </div>
         </section>
 
-        <section class="section-how">
+        <section class="section-how" id="how">
             <div class=" container">
                 <span class="subheading"> How It Works</span>
                 <h2 class="heading-secondary">
@@ -148,7 +150,7 @@
                 </div>
         </section>
 
-        <section class="section-meals">
+        <section class="section-meals" id="meals">
             <div class=" container center-text">
                 <span class="subheading">Meals</span>
                 <h2 class="heading-secondary">
@@ -254,7 +256,7 @@
             </div>
         </section>
 
-        <section class="section-testimonials">
+        <section class="section-testimonials" id="test">
             <div class="testimonials-container">
                 <span class="subheading">Customer testimonials
                 </span>
@@ -324,7 +326,7 @@
             </div>
         </section>
 
-        <section class="section-pricing">
+        <section class="section-pricing" id="price">
             <div class=" container">
                 <span class="subheading">Pricing</span>
                 <h2 class="heading-secondary">
@@ -427,7 +429,7 @@
             </div>		
         </section>
 
-        <section class="section-cta">
+        <section class="section-cta" id="cta">
             <div class="container">
                 <div class="cta">
                     <div class="cta-text-box">
@@ -482,7 +484,7 @@
         </section>
 </main>
 
-<footer class="footer">
+<footer class="footer" id="learn">
     <div class="container grid grid--footer">
         <div class="logo-col">
             <a href="#" class="footer-logo">
